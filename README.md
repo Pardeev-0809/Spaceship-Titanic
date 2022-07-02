@@ -1,4 +1,4 @@
-### Kaggle Spaceship Titanic Machine Learning Project 
+# Kaggle Spaceship Titanic Machine Learning Project 
 This repository contains Spaceship Titanic Machine Learning project with Jupyter notebook and Python files. There are three files 'train.csv', 'test.csv' and 'sample_submission.csv'.
 
 * Data in train.csv -> PassengerId, HomePlanet, CryoSleep, Cabin, Destination, Age, VIP, RoomService, FoodCourt, ShoppingMall, Spa, VRDeck, Name, Transported.
@@ -7,7 +7,7 @@ This repository contains Spaceship Titanic Machine Learning project with Jupyter
  
 * Data in sample_submission.csv -> PassengerId, Transported (It is the sample file showing how the data should be submitted to Kaggle).
 
----
+
 ## WORKFLOW
 
 Rank 2201 
