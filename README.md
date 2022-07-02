@@ -17,6 +17,3 @@ During the competition our position on the leaderboard:
 1. Rank: 1368 | Accuracy: 78.96%
 	* We used Random Forest algorithm and replacing continuous NULL values with Median and categorical NULL values with Mode.
 
-
----
-
