@@ -1,5 +1,4 @@
-### WORKFLOW
-## Kaggle Spaceship Titanic Machine Learning Project 
+### Kaggle Spaceship Titanic Machine Learning Project 
 This repository contains Spaceship Titanic Machine Learning project with Jupyter notebook and Python files. There are three files 'train.csv', 'test.csv' and 'sample_submission.csv'.
 
 * Data in train.csv -> PassengerId, HomePlanet, CryoSleep, Cabin, Destination, Age, VIP, RoomService, FoodCourt, ShoppingMall, Spa, VRDeck, Name, Transported.
@@ -9,6 +8,18 @@ This repository contains Spaceship Titanic Machine Learning project with Jupyter
 * Data in sample_submission.csv -> PassengerId, Transported (It is the sample file showing how the data should be submitted to Kaggle).
 
 ---
+## WORKFLOW
+
+Rank 2201 
+- Filled NAN values of Categorical and Numerical data with the value of previous value in the column (function = 'ffill')
+Rank 1441
+- Filled NAN values with evenly distributed values of the column in Categorical Data
+- Filled NAN values with mean of the column in Numerical Data
+Rank 1368
+- Filled NAN values with mode of the column in Categorical Data
+- Filled NAN values with median of the column in Numerical Data
+
+## RESULT
 
 During the competition our position on the leaderboard:
 1. Rank: 2201 | Accuracy: 52.00%
