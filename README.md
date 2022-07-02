@@ -11,13 +11,15 @@ This repository contains Spaceship Titanic Machine Learning project with Jupyter
 ## WORKFLOW
 
 Rank 2201 
-- Filled NAN values of Categorical and Numerical data with the value of previous value in the column (function = 'ffill')
+* Filled NAN values of Categorical and Numerical data with the value of previous value in the column (function = 'ffill')
+
 Rank 1441
-- Filled NAN values with evenly distributed values of the column in Categorical Data
-- Filled NAN values with mean of the column in Numerical Data
+* Filled NAN values with evenly distributed values of the column in Categorical Data
+* Filled NAN values with mean of the column in Numerical Data
+
 Rank 1368
-- Filled NAN values with mode of the column in Categorical Data
-- Filled NAN values with median of the column in Numerical Data
+* Filled NAN values with mode of the column in Categorical Data
+* Filled NAN values with median of the column in Numerical Data
 
 ## RESULT
 
